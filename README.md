@@ -2,19 +2,22 @@
 Exploring the Use of Large Language Models (LLMs) in Marketing Analytics
 
 **Data Description:**  The dataset of customer information for a marketing campaign at a food/wine retailer (likely a simplified version). 
+
 **Key features include:**
 
-Demographics: Income, Age, Kidhome, Teenhome, Education, Marital Status
+**Demographics:** Income, Age, Kidhome, Teenhome, Education, Marital Status
 
-Purchase Behavior: MntWines, MntFruits, MntMeatProducts, etc., NumDealsPurchases, NumWebPurchases, NumCatalogPurchases, NumStorePurchases, MntTotal, MntRegularProds
+**Purchase Behavior:** MntWines, MntFruits, MntMeatProducts, etc., NumDealsPurchases, NumWebPurchases, NumCatalogPurchases, NumStorePurchases, MntTotal, MntRegularProds
 
-Engagement: NumWebVisitsMonth, Recency, Customer_Days
+**Engagement:** NumWebVisitsMonth, Recency, Customer_Days
 
-Campaign Response: AcceptedCmp1-5, Response, AcceptedCmpOverall, Complain
+**Campaign Response:** AcceptedCmp1-5, Response, AcceptedCmpOverall, Complain
 
-Identifiers: Z_CostContact, Z_Revenue (These look like placeholder columns and likely won't be useful).
+**Identifiers:** Z_CostContact, Z_Revenue (These look like placeholder columns and likely won't be useful).
 
-Define a Clear Goal: What do you want your LLM to do? This is crucial because it dictates the model architecture, training process, and evaluation metrics. Here are some possibilities, ranked roughly in terms of complexity (simplest to most complex):
+**Define a Clear Goal:** 
+
+What do you want your LLM to do? This is crucial because it dictates the model architecture, training process, and evaluation metrics. Here are some possibilities, ranked roughly in terms of complexity (simplest to most complex):
 
 1. Customer Segmentation & Persona Generation: Given some customer characteristics (e.g., Income, Education, Presence of Kids), generate a short description of their likely purchasing habits and campaign responsiveness. (This would be good for a smaller, more manageable project).
 
